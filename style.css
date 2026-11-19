@@ -10,3 +10,6 @@
 
 /* Shared page headings */
 .game-intro{background:var(--paper);color:var(--ink);padding:5rem 0 0}.game-intro-inner{width:min(780px,88%)}.game-intro h1{font-size:clamp(1.9rem,4vw,2.7rem);line-height:1.45;margin:0}.game-grid-wrap{width:min(780px,88%);padding:2.5rem 0 5rem}.game-card-body{padding:1.2rem 1.5rem}.game-card-body h2{margin:0;font-size:1.15rem}.game-card-arrow{bottom:1rem;right:1.4rem}.post-date{font-size:.85rem;color:var(--muted)}.narrow>h1,.prose>h1{border-bottom:1px solid var(--line);padding-bottom:1rem;margin-top:0}.game-intro h1{border-bottom:1px solid var(--line);padding-bottom:1rem}@media(max-width:650px){.game-intro{padding:3rem 0 0}.game-grid-wrap{padding:1.8rem 0 3.5rem}.game-card-body{padding:1rem 1.2rem}}
+
+.header{justify-content:flex-end}
+@media(max-width:650px){.header{align-items:flex-start}}
