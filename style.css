@@ -32,3 +32,37 @@ main>.wrap>section:has(.banners)>h2{text-align:center;color:white;font-size:clam
 .banners code{font:inherit}
 .banners img{display:block}
 .game-intro h1{border-color:var(--line)}
+
+/* Homepage proportions from the Ownd layout. */
+.header{background:#fff;justify-content:center;align-items:center;padding:14px 5%;min-height:52px;border-bottom:1px solid #ddd}
+.header nav{justify-content:center;column-gap:clamp(.85rem,3vw,2.5rem);row-gap:.45rem}
+.header nav a{color:#404040}
+.home{color:#fff;font:14px/1.85 Arial,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif}
+.home main>.wrap{width:min(800px,90%)}
+.home .hero{background-size:auto,106% auto;background-position:center top;background-image:url('assets/cover.png');background-size:106% auto}
+.home .hero-content{width:94%;padding:64px 0 60px}
+.home .hero h1{font-size:clamp(1.45rem,4vw,2.5rem);letter-spacing:.1em}
+.home .hero p{font-size:13px;color:#e9f6f4;margin-top:25px}
+.home .hero{border-bottom:1px solid #ffffff55}
+.home main>.wrap>section{padding:42px 0 49px;border-color:#ffffff55}
+.home main>.wrap>section:first-child{padding-top:58px}
+.home main>.wrap h2{text-align:center;font-size:clamp(1.45rem,4vw,1.875rem);margin:0 0 34px}
+.home .news{border:0;margin:0 0 30px}
+.home .news li{border-color:#ffffff55}
+.home .news a{position:relative;display:flex;flex-direction:column;gap:8px;min-height:138px;padding:26px 115px 25px 0;color:#fff;font-size:12px}
+.home .news time{font-size:10px;font-style:italic;color:#eef9f8}
+.home .news time::after{content:"";display:block;width:15px;border-top:1px solid #ffffff60;margin-top:10px}
+.home .news img{position:absolute;right:0;top:28px;width:100px;height:80px;object-fit:cover}
+.home .download-callout{display:block;text-align:center}
+.home .button{display:block;width:min(380px,100%);margin:auto;border:1px solid #fff;background:transparent;color:#fff;text-align:center}
+.home .button:hover{background:#ffffff22}
+.home .more-news{width:min(240px,100%);padding:.55rem}
+.home .video{background:transparent}
+.home .video+p{text-align:center}
+.home main a:not(.button){color:#fff}
+.home .home-spec p{margin:0 0 7px}
+.home .home-spec p:last-child{margin-top:36px}
+.home .banners{color:#fff}
+.home footer{border-top:1px solid #ffffff55;margin-top:clamp(4rem,14vw,12rem);padding:22px}
+.home footer small{color:#e9f6f4}
+@media(max-width:650px){.home .hero-content{padding:36px 0}.home .hero h1{letter-spacing:.025em}.home main>.wrap>section{padding:34px 0}.home .news a{min-height:116px;padding-right:88px}.home .news img{width:76px;height:61px}}
