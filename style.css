@@ -75,3 +75,23 @@ main>.wrap>section:has(.banners)>h2{text-align:center;color:white;font-size:clam
 .home .share{padding-top:40px}
 .home .share .x-post{display:inline-flex;align-items:center;gap:.4em;padding:2px 13px;background:#000;color:#fff;border-radius:2em;text-decoration:none;font-weight:700}
 .home .share .x-post:hover{background:#262626}
+
+.ownd-page{color:#fff;font:14px/1.85 Arial,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif}
+.ownd-page .narrow{width:min(800px,90%);max-width:none;min-height:0;padding:58px 0 112px}
+.ownd-page .narrow>h1{border:0;padding:0;text-align:center;font-size:clamp(1.75rem,5vw,2.5rem);margin:0 0 40px}
+.privacy-page .prose p,.privacy-page .prose h2{font:inherit;margin:0 0 7px}
+.ownd-page footer{border-top:1px solid #ffffff55;padding:22px}
+.ownd-page footer small{color:#e9f6f4}
+.download-page .download-group{padding:0;border:0}
+.download-group+ .download-group{margin-top:68px}
+.download-group h2{font-size:clamp(1.25rem,4vw,1.875rem);margin:0 0 18px}
+.download-group p{font-weight:700;margin:0}
+.download-group .badges{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px;margin-top:40px}
+.download-group .badges img{width:280px}
+.download-group .storelinks{margin-top:30px;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px}
+.download-group .storelinks a{display:block;text-align:center;background:transparent;color:#fff;border:1px solid #fff;padding:8px;overflow-wrap:anywhere}
+.download-group .storelinks a:hover{background:#ffffff22}
+.download-group .storelinks a:first-child{grid-column:1/-1;width:min(240px,100%);justify-self:center;padding:0 0 8px}
+.download-group .storelinks img{display:block;width:100%;height:auto;margin-bottom:8px}
+@media(max-width:650px){.ownd-page .narrow{padding:40px 0 72px}.download-group .badges,.download-group .storelinks{gap:14px}.download-group+ .download-group{margin-top:46px}}
+@media(max-width:430px){.download-group .storelinks{grid-template-columns:1fr}.download-group .storelinks a:first-child{grid-column:1}}
