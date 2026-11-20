@@ -13,3 +13,22 @@
 
 .header{justify-content:flex-end}
 @media(max-width:650px){.header{align-items:flex-start}}
+
+/* Original Ownd palette and homepage layout */
+:root{--paper:#79beb7;--ink:#173b37;--line:#528d87;--muted:#315c57}
+.header,footer{background:var(--paper);color:var(--ink)}
+.header{border-bottom:1px solid rgba(255,255,255,.4)}
+footer small{color:var(--ink)}
+.hero{background-color:var(--paper)}
+.hero-content{text-align:center;color:#fff;padding:clamp(2.5rem,6vw,4.5rem) 0}
+.hero h1{font-size:clamp(1.55rem,3.8vw,2.55rem);letter-spacing:.055em;margin:0}
+.hero h1 span{font-size:inherit;font-weight:inherit;white-space:nowrap}
+.hero-content>.button{display:none}
+.hero-content p{margin:1.3rem 0 0}
+main>.wrap>section:has(.banners)>h2{text-align:center;color:white;font-size:clamp(1.5rem,3vw,2rem)}
+.banners{display:grid;gap:3.5rem;color:#173b37}
+.banners figure{margin:0;min-width:0}
+.banners pre{white-space:pre-wrap;overflow-wrap:anywhere;margin:1.5rem 0 2.5rem;font:inherit}
+.banners code{font:inherit}
+.banners img{display:block}
+.game-intro h1{border-color:var(--line)}
