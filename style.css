@@ -66,3 +66,12 @@ main>.wrap>section:has(.banners)>h2{text-align:center;color:white;font-size:clam
 .home footer{border-top:1px solid #ffffff55;margin-top:clamp(4rem,14vw,12rem);padding:22px}
 .home footer small{color:#e9f6f4}
 @media(max-width:650px){.home .hero-content{padding:36px 0}.home .hero h1{letter-spacing:.025em}.home main>.wrap>section{padding:34px 0}.home .news a{min-height:116px;padding-right:88px}.home .news img{width:76px;height:61px}}
+
+/* Keep the cover and title spacing independent. */
+.home .hero{padding-top:0;background:var(--paper)}
+.home .hero-art{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;object-position:center top}
+.home .hero-content{padding:clamp(48px,7vw,70px) 0 clamp(48px,7vw,64px)}
+.home .hero-content>.button{margin-top:20px}
+.home .share{padding-top:40px}
+.home .share .x-post{display:inline-flex;align-items:center;gap:.4em;padding:2px 13px;background:#000;color:#fff;border-radius:2em;text-decoration:none;font-weight:700}
+.home .share .x-post:hover{background:#262626}
