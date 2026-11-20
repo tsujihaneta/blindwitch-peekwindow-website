@@ -95,3 +95,14 @@ main>.wrap>section:has(.banners)>h2{text-align:center;color:white;font-size:clam
 .download-group .storelinks img{display:block;width:100%;height:auto;margin-bottom:8px}
 @media(max-width:650px){.ownd-page .narrow{padding:40px 0 72px}.download-group .badges,.download-group .storelinks{gap:14px}.download-group+ .download-group{margin-top:46px}}
 @media(max-width:430px){.download-group .storelinks{grid-template-columns:1fr}.download-group .storelinks a:first-child{grid-column:1}}
+
+.download-group .storelinks a:has(.steam-logo){width:auto;padding:0;border:0}
+.download-group .storelinks .steam-logo{width:100px;margin:0}
+.steam-credit{display:block;margin-top:24px}
+.ownd-page .overview-title{padding-bottom:0}
+.ownd-page .overview-title h1{margin-bottom:0}
+.ownd-page .game-card,.ownd-page .game-nav a{background:transparent;border:1px solid #fff;color:#fff;box-shadow:none}
+.ownd-page .game-card:hover,.ownd-page .game-nav a:hover{background:#ffffff22;transform:none}
+.ownd-page .game-card h2{text-align:center;font-size:inherit}
+.ownd-page .news a,.ownd-page .news time,.ownd-page .back a,.ownd-page .game-content a{color:#fff}
+.ownd-page .news,.ownd-page .news li{border-color:#ffffff55}
